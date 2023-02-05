@@ -1,9 +1,103 @@
+@import './styles/fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .sidebar-icon {
-    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gray-800 text-green-500 hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gray-800 text-green-500 hover: bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .heading1 {
+    font-family: 'Sukhumvit bold';
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .heading2 {
+    font-family: 'Sukhumvit bold';
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .heading3 {
+    font-family: 'Sukhumvit bold';
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .heading4 {
+    font-family: 'Sukhumvit bold';
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .heading5 {
+    font-family: 'Sukhumvit bold';
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .heading6 {
+    font-family: 'Sukhumvit bold';
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .heading7 {
+    font-family: 'Sukhumvit bold';
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .subtitle1 {
+    font-family: 'Sukhumvit semibold';
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .subtitle2 {
+    font-family: 'Sukhumvit semibold';
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .body1 {
+    font-family: 'Sukhumvit text';
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .body2 {
+    font-family: 'Sukhumvit text';
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .button1 {
+    font-family: 'Sukhumvit bold';
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .button2 {
+    font-family: 'Sukhumvit bold';
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .caption {
+    font-family: 'Sukhumvit bold';
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .overline {
+    font-family: 'Sukhumvit bold';
+    font-size: 10px;
+    line-height: 14px;
   }
 }
